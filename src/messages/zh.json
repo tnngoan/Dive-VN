@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Rainbow Divers - Vietnam — 深渊档案馆",
+    "description": "芽庄顶级高端潜水团体。探索隐秘的珊瑚大教堂和幽灵般的沉船遗迹。"
+  },
+  "nav": {
+    "brand": "Rainbow Divers - Vietnam",
+    "expeditions": "探险之旅",
+    "diveSites": "潜水地点",
+    "training": "培训课程",
+    "community": "社区",
+    "bookADive": "预约潜水"
+  },
+  "hero": {
+    "headingLine1": "探索",
+    "headingLine2": "深渊档案馆",
+    "description": "探索芽庄隐秘的珊瑚大教堂和幽灵般的沉船遗迹。我们的精英探险之旅将科学探索与高端水下奢华体验完美融合。",
+    "ctaPrimary": "开启您的旅程",
+    "ctaSecondary": "探索探险之旅",
+    "depthWidget": {
+      "title": "当前深度",
+      "location": "Hon Mun Marine Park",
+      "depthReached": "已达3公里深度",
+      "minDepth": "0米",
+      "maxDepth": "45米+"
+    }
+  },
+  "training": {
+    "sectionLabel": "征服深海",
+    "heading": "精英培训课程",
+    "description": "从您在水下的第一次呼吸到专业认证，独家培训助您超越普通潜水。",
+    "catalogDescription": "从您在水下的第一次呼吸到专业认证。选择您的精通之路。",
+    "catalogLabel": "认证课程",
+    "learnMore": "了解更多",
+    "bookNow": "立即预约",
+    "courses": {
+      "openWater": {
+        "title": "开放水域基础",
+        "description": "掌握基本潜水技能，获取您的首张PADI认证。包含泳池训练和4次开放水域潜水。",
+        "level": "初级",
+        "duration": "4天",
+        "price": "From $350"
+      },
+      "advanced": {
+        "title": "进阶开放水域",
+        "description": "通过5次冒险潜水拓展您的极限，包括深潜和导航专项。",
+        "level": "中级",
+        "duration": "2天",
+        "price": "From $280"
+      },
+      "nightCave": {
+        "title": "夜潜与洞穴精通",
+        "description": "以专家级精准度在完全黑暗和封闭顶部环境中导航。",
+        "level": "高级",
+        "duration": "3天",
+        "price": "From $420"
+      },
+      "rescue": {
+        "title": "救援潜水员",
+        "description": "学习管理潜水紧急情况，成为人人都想结伴的潜水员。",
+        "level": "高级",
+        "duration": "4天",
+        "price": "From $380"
+      },
+      "proGear": {
+        "title": "专业装备工作坊",
+        "description": "像专家一样了解和维护专业级潜水装备。",
+        "level": "所有级别",
+        "duration": "1天",
+        "price": "From $150"
+      },
+      "marinePhoto": {
+        "title": "海洋摄影",
+        "description": "运用专业技术、灯光和后期处理捕捉水下世界。",
+        "level": "所有级别",
+        "duration": "2天",
+        "price": "From $320"
+      }
+    },
+    "levels": {
+      "beginner": "初级",
+      "intermediate": "中级",
+      "advanced": "高级",
+      "allLevels": "所有级别"
+    }
+  },
+  "cta": {
+    "heading1": "准备好",
+    "heading2": "下潜了吗？",
+    "description": "我们的海洋科学家团队随时准备引导您探索深渊。根据您最深切的愿望量身定制您的体验。",
+    "quickInquiry": "快速咨询",
+    "quickInquiryTime": "24小时内回复",
+    "deepSupport": "深度支持",
+    "deepSupportLine": "SOS优先热线",
+    "form": {
+      "nameLabel": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "emailLabel": "电子邮箱",
+      "emailPlaceholder": "请输入您的电子邮箱",
+      "messageLabel": "留言",
+      "messagePlaceholder": "告诉我们您的梦想潜水之旅...",
+      "submit": "发送咨询",
+      "successTitle": "消息已发送！",
+      "successDescription": "我们将在24小时内与您联系。"
+    }
+  },
+  "booking": {
+    "sectionLabel": "申请探险",
+    "headingLine1": "深入",
+    "headingLine2": "深渊",
+    "subtitle": "芽庄顶级高端潜水团体。请填写以下潜水档案，开启您的定制水下之旅。",
+    "section01": "潜水员身份",
+    "fullName": "全名",
+    "fullNamePlaceholder": "Commander Cousteau",
+    "emailAddress": "电子邮箱地址",
+    "emailPlaceholder": "explorer@abyss.com",
+    "section02": "探险档案",
+    "preferredDate": "首选日期",
+    "certLevel": "认证级别",
+    "selectLevel": "选择级别",
+    "certOptions": {
+      "openWater": "Open Water Diver",
+      "advanced": "Advanced Open Water",
+      "rescue": "Rescue Diver",
+      "divemaster": "Divemaster",
+      "instructor": "Instructor"
+    },
+    "selectDepths": "选择您的深度",
+    "depths": {
+      "coralGardens": "珊瑚花园",
+      "deepWall": "深墙",
+      "electricWreck": "电力沉船",
+      "nightDescent": "夜间下潜"
+    },
+    "depthError": "请至少选择一个深度",
+    "section03": "装备与支持",
+    "specialRequirements": "特殊需求",
+    "specialReqPlaceholder": "请告诉我们您的装备需求或健康注意事项...",
+    "submit": "发送咨询",
+    "submitNote": "我们的资深潜水教练将在4小时内与您联系，确定您的行程安排。",
+    "successTitle": "已收到咨询！",
+    "successDescription": "我们的资深潜水教练将在4小时内与您联系，确定您的行程安排。",
+    "sidebar": {
+      "visualLog": "视觉日志",
+      "hiddenReef": "隐秘礁石",
+      "whatToExpect": "期待体验",
+      "eliteEquipment": "顶级装备",
+      "eliteEquipmentDesc": "使用按航空标准维护的碳纤维气瓶和高性能调节器。",
+      "yachtTransfer": "私人游艇接送",
+      "yachtTransferDesc": "乘坐我们50英尺定制游艇前往僻静潜水点，船上设施齐全。",
+      "exclusiveAccess": "独家准入",
+      "exclusiveAccessDesc": "我们持有Hon Mun Marine Park限制区域的许可证。",
+      "oceanTemp": "当前海水温度",
+      "tempOptimal": "条件最适合午夜探索。"
+    }
+  },
+  "expeditions": {
+    "sectionLabel": "精选旅程",
+    "heading": "精选探险之旅",
+    "description": "前往芽庄最壮观潜水地点的精心策划水下旅程。",
+    "coralCathedral": "珊瑚大教堂",
+    "coralCathedralDesc": "探索Hon Mun Marine Park中心的宏伟珊瑚地貌。",
+    "wreckDiscovery": "沉船探索",
+    "wreckDiscoveryDesc": "深入芽庄海岸沿线沉船的幽灵般遗迹。",
+    "nightAbyss": "夜间深渊",
+    "nightAbyssDesc": "体验月光下焕然一新的海洋，邂逅生物发光的奇幻景象。"
+  },
+  "diveSites": {
+    "sectionLabel": "水下地形",
+    "heading": "潜水地点图鉴",
+    "description": "探索芽庄海洋保护区的水下地形。",
+    "mapPlaceholder": "互动潜水地点地图",
+    "honMun": "Hon Mun",
+    "morayBeach": "Moray Beach",
+    "madonnaRock": "Madonna Rock",
+    "coralGarden": "Coral Garden"
+  },
+  "community": {
+    "sectionLabel": "水面之下",
+    "heading": "深海社区",
+    "description": "来自水面之下的故事、保育行动和联系。",
+    "conservationLabel": "海洋保育",
+    "conservationHeading": "保育项目",
+    "conservationDescription": "我们持续为保护和修复芽庄湾海洋生态系统所做的努力。详细信息即将公布。",
+    "stories": {
+      "nightDive": { "title": "首次夜潜", "author": "Sarah K.", "excerpt": "那生物发光的景象是我前所未见的..." },
+      "reefRestoration": { "title": "珊瑚礁修复日志", "author": "Dr. Nguyen", "excerpt": "经过18个月的珊瑚种植，成果令人瞩目..." },
+      "freediving": { "title": "自由潜水之旅", "author": "Marco T.", "excerpt": "一口气突破40米深度改变了我的视角..." }
+    }
+  },
+  "footer": {
+    "brand": "Rainbow Divers - Vietnam",
+    "copyright": "© 2024 Rainbow Divers - Vietnam. 深渊档案馆。",
+    "privacyPolicy": "隐私政策",
+    "safetyProtocols": "安全规程",
+    "contactDeepSupport": "联系深度支持",
+    "marineConservation": "海洋保育"
+  },
+  "common": {
+    "loading": "正在下潜...",
+    "comingSoon": "即将推出",
+    "notFound": {
+      "heading1": "迷失在",
+      "heading2": "深渊",
+      "description": "您寻找的深度在我们的档案中不存在。",
+      "cta": "返回水面"
+    },
+    "validation": {
+      "required": "此字段为必填项",
+      "invalidEmail": "请输入有效的电子邮箱地址",
+      "messageTooShort": "留言至少需要10个字符"
+    }
+  }
+}

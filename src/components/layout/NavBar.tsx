@@ -1,23 +1,25 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Settings, Menu, X } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/routing";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 import { cn } from "@/lib/utils";
 
-const navLinks = [
-  { href: "/expeditions", label: "EXPEDITIONS" },
-  { href: "/dive-sites", label: "DIVE SITES" },
-  { href: "/training", label: "TRAINING" },
-  { href: "/community", label: "COMMUNITY" },
-];
-
 export default function NavBar() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
+
+  const navLinks = [
+    { href: "/expeditions" as const, label: t("expeditions") },
+    { href: "/dive-sites" as const, label: t("diveSites") },
+    { href: "/training" as const, label: t("training") },
+    { href: "/community" as const, label: t("community") },
+  ];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -36,12 +38,10 @@ export default function NavBar() {
         )}
       >
         <div className="max-w-[1280px] mx-auto px-8 h-full flex items-center justify-between">
-          {/* Logo */}
           <Link href="/" className="text-white font-semibold text-lg whitespace-nowrap">
-            Rainbow Divers - Vietnam
+            {t("brand")}
           </Link>
 
-          {/* Center nav — desktop */}
           <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
@@ -59,14 +59,11 @@ export default function NavBar() {
             ))}
           </div>
 
-          {/* Right side */}
           <div className="flex items-center gap-4">
-            <button className="text-[var(--text-secondary)] hover:text-white transition-colors hidden lg:block">
-              <Settings size={20} />
-            </button>
+            <LanguageSwitcher />
             <Link href="/book">
               <Button variant="primary" size="sm">
-                Book a Dive
+                {t("bookADive")}
               </Button>
             </Link>
             <button
@@ -79,7 +76,6 @@ export default function NavBar() {
         </div>
       </nav>
 
-      {/* Mobile overlay */}
       {mobileOpen && (
         <div className="fixed inset-0 z-[60] backdrop-blur-xl bg-[var(--bg-primary)]/95 flex flex-col items-center justify-center gap-8">
           <button
@@ -103,9 +99,12 @@ export default function NavBar() {
               {link.label}
             </Link>
           ))}
+          <div className="mt-4">
+            <LanguageSwitcher />
+          </div>
           <Link href="/book" onClick={() => setMobileOpen(false)}>
             <Button variant="primary" size="lg">
-              Book a Dive
+              {t("bookADive")}
             </Button>
           </Link>
         </div>

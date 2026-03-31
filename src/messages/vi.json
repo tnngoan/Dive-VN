@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Rainbow Divers - Vietnam — Kho Tàng Đại Dương",
+    "description": "Câu lạc bộ lặn cao cấp hàng đầu Nha Trang. Khám phá những nhà thờ san hô ẩn giấu và xác tàu đắm kỳ bí."
+  },
+  "nav": {
+    "brand": "Rainbow Divers - Vietnam",
+    "expeditions": "CHUYẾN THÁM HIỂM",
+    "diveSites": "ĐIỂM LẶN",
+    "training": "ĐÀO TẠO",
+    "community": "CỘNG ĐỒNG",
+    "bookADive": "Đặt Lịch Lặn"
+  },
+  "hero": {
+    "headingLine1": "Khám phá",
+    "headingLine2": "Kho Tàng Đại Dương",
+    "description": "Khám phá những nhà thờ san hô ẩn giấu và xác tàu đắm kỳ bí tại Nha Trang. Các chuyến thám hiểm tinh hoa của chúng tôi kết hợp sự tò mò khoa học với trải nghiệm lặn biển xa xỉ.",
+    "ctaPrimary": "Bắt Đầu Hành Trình",
+    "ctaSecondary": "Khám Phá Chuyến Thám Hiểm",
+    "depthWidget": {
+      "title": "Độ Sâu Hiện Tại",
+      "location": "Hon Mun Marine Park",
+      "depthReached": "ĐÃ ĐẠT ĐỘ SÂU 3KM",
+      "minDepth": "0M",
+      "maxDepth": "45M+"
+    }
+  },
+  "training": {
+    "sectionLabel": "CHINH PHỤC ĐẠI DƯƠNG",
+    "heading": "Chương Trình Đào Tạo Tinh Hoa",
+    "description": "Từ hơi thở đầu tiên dưới nước đến chứng chỉ chuyên nghiệp, đào tạo độc quyền để vượt xa lặn biển thông thường.",
+    "catalogDescription": "Từ hơi thở đầu tiên dưới nước đến chứng chỉ chuyên nghiệp. Chọn con đường làm chủ của bạn.",
+    "catalogLabel": "CHƯƠNG TRÌNH CHỨNG CHỈ",
+    "learnMore": "Tìm Hiểu Thêm",
+    "bookNow": "Đặt Ngay",
+    "courses": {
+      "openWater": {
+        "title": "Open Water Nền Tảng",
+        "description": "Thành thạo các kỹ năng lặn cơ bản và nhận chứng chỉ PADI đầu tiên. Bao gồm tập luyện tại hồ bơi và 4 lần lặn biển.",
+        "level": "Người Mới",
+        "duration": "4 ngày",
+        "price": "From $350"
+      },
+      "advanced": {
+        "title": "Advanced Open Water",
+        "description": "Mở rộng giới hạn với 5 lần lặn phiêu lưu bao gồm chuyên sâu lặn sâu và định hướng.",
+        "level": "Trung Cấp",
+        "duration": "2 ngày",
+        "price": "From $280"
+      },
+      "nightCave": {
+        "title": "Lặn Đêm & Hang Động Nâng Cao",
+        "description": "Điều hướng trong bóng tối hoàn toàn và môi trường hang động với sự chính xác chuyên gia.",
+        "level": "Nâng Cao",
+        "duration": "3 ngày",
+        "price": "From $420"
+      },
+      "rescue": {
+        "title": "Rescue Diver",
+        "description": "Học cách xử lý tình huống khẩn cấp khi lặn và trở thành người bạn lặn mà ai cũng muốn đồng hành.",
+        "level": "Nâng Cao",
+        "duration": "4 ngày",
+        "price": "From $380"
+      },
+      "proGear": {
+        "title": "Hội Thảo Thiết Bị Chuyên Nghiệp",
+        "description": "Hiểu và bảo trì thiết bị lặn chuyên nghiệp như các chuyên gia.",
+        "level": "Mọi Cấp Độ",
+        "duration": "1 ngày",
+        "price": "From $150"
+      },
+      "marinePhoto": {
+        "title": "Nhiếp Ảnh Dưới Nước",
+        "description": "Ghi lại thế giới dưới nước với kỹ thuật chuyên nghiệp, ánh sáng và hậu kỳ.",
+        "level": "Mọi Cấp Độ",
+        "duration": "2 ngày",
+        "price": "From $320"
+      }
+    },
+    "levels": {
+      "beginner": "Người Mới",
+      "intermediate": "Trung Cấp",
+      "advanced": "Nâng Cao",
+      "allLevels": "Mọi Cấp Độ"
+    }
+  },
+  "cta": {
+    "heading1": "Sẵn sàng",
+    "heading2": "Lặn chưa?",
+    "description": "Đội ngũ nhà khoa học biển của chúng tôi sẵn sàng dẫn bạn vào đại dương sâu thẳm. Tạo trải nghiệm phù hợp với khát vọng sâu nhất của bạn.",
+    "quickInquiry": "Liên Hệ Nhanh",
+    "quickInquiryTime": "Phản hồi trong 24 giờ",
+    "deepSupport": "Hỗ Trợ Chuyên Sâu",
+    "deepSupportLine": "Đường Dây Ưu Tiên SOS",
+    "form": {
+      "nameLabel": "Họ Tên",
+      "namePlaceholder": "Nhập họ tên của bạn",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Nhập email của bạn",
+      "messageLabel": "Tin Nhắn",
+      "messagePlaceholder": "Hãy kể cho chúng tôi về chuyến lặn mơ ước của bạn...",
+      "submit": "Gửi Yêu Cầu",
+      "successTitle": "Đã gửi tin nhắn!",
+      "successDescription": "Chúng tôi sẽ liên hệ lại trong vòng 24 giờ."
+    }
+  },
+  "booking": {
+    "sectionLabel": "YÊU CẦU CHUYẾN THÁM HIỂM",
+    "headingLine1": "Lặn vào",
+    "headingLine2": "Đại Dương Sâu Thẳm",
+    "subtitle": "Câu lạc bộ lặn cao cấp hàng đầu Nha Trang. Điền hồ sơ lặn của bạn bên dưới để bắt đầu hành trình dưới nước được thiết kế riêng.",
+    "section01": "Thông Tin Thợ Lặn",
+    "fullName": "Họ Tên",
+    "fullNamePlaceholder": "Commander Cousteau",
+    "emailAddress": "Địa Chỉ Email",
+    "emailPlaceholder": "explorer@abyss.com",
+    "section02": "Hồ Sơ Chuyến Thám Hiểm",
+    "preferredDate": "Ngày Ưu Tiên",
+    "certLevel": "Cấp Độ Chứng Chỉ",
+    "selectLevel": "Chọn cấp độ",
+    "certOptions": {
+      "openWater": "Open Water Diver",
+      "advanced": "Advanced Open Water",
+      "rescue": "Rescue Diver",
+      "divemaster": "Divemaster",
+      "instructor": "Instructor"
+    },
+    "selectDepths": "Chọn Điểm Lặn Của Bạn",
+    "depths": {
+      "coralGardens": "VƯỜN SAN HÔ",
+      "deepWall": "VÁCH SÂU",
+      "electricWreck": "XÁC TÀU ĐIỆN",
+      "nightDescent": "LẶN ĐÊM"
+    },
+    "depthError": "Chọn ít nhất một điểm lặn",
+    "section03": "Thiết Bị & Hỗ Trợ",
+    "specialRequirements": "Yêu Cầu Đặc Biệt",
+    "specialReqPlaceholder": "Cho chúng tôi biết về nhu cầu thiết bị hoặc lưu ý y tế của bạn...",
+    "submit": "GỬI YÊU CẦU",
+    "submitNote": "Các Thợ Lặn Trưởng của chúng tôi sẽ liên hệ bạn trong vòng 4 giờ để hoàn tất lịch trình.",
+    "successTitle": "Đã Nhận Yêu Cầu!",
+    "successDescription": "Các Thợ Lặn Trưởng của chúng tôi sẽ liên hệ bạn trong vòng 4 giờ để hoàn tất lịch trình.",
+    "sidebar": {
+      "visualLog": "NHẬT KÝ HÌNH ẢNH",
+      "hiddenReef": "Rạn San Hô Ẩn",
+      "whatToExpect": "Bạn Sẽ Trải Nghiệm Gì",
+      "eliteEquipment": "Thiết Bị Cao Cấp",
+      "eliteEquipmentDesc": "Sử dụng bình lặn sợi carbon và bộ điều áp hiệu suất cao được bảo trì theo tiêu chuẩn hàng không vũ trụ.",
+      "yachtTransfer": "Du Thuyền Riêng Đưa Đón",
+      "yachtTransferDesc": "Đến các điểm lặn hẻo lánh trên du thuyền 50ft tùy chỉnh với đầy đủ tiện nghi trên tàu.",
+      "exclusiveAccess": "Quyền Truy Cập Độc Quyền",
+      "exclusiveAccessDesc": "Chúng tôi có giấy phép vào các khu vực hạn chế của Khu Bảo Tồn Biển Hon Mun Marine Protected Area.",
+      "oceanTemp": "NHIỆT ĐỘ ĐẠI DƯƠNG HIỆN TẠI",
+      "tempOptimal": "Điều kiện lý tưởng cho khám phá nửa đêm."
+    }
+  },
+  "expeditions": {
+    "sectionLabel": "HÀNH TRÌNH TUYỂN CHỌN",
+    "heading": "Chuyến Thám Hiểm Tuyển Chọn",
+    "description": "Những hành trình dưới nước được thiết kế thủ công đến các điểm lặn ngoạn mục nhất Nha Trang.",
+    "coralCathedral": "Nhà Thờ San Hô",
+    "coralCathedralDesc": "Khám phá những khối san hô hùng vĩ giữa trung tâm Hon Mun Marine Park.",
+    "wreckDiscovery": "Khám Phá Xác Tàu",
+    "wreckDiscoveryDesc": "Lặn vào tàn tích ma mị của những con tàu đắm dọc bờ biển Nha Trang.",
+    "nightAbyss": "Vực Sâu Đêm",
+    "nightAbyssDesc": "Trải nghiệm đại dương biến đổi dưới ánh trăng với những cuộc gặp gỡ sinh vật phát quang."
+  },
+  "diveSites": {
+    "sectionLabel": "ĐỊA HÌNH DƯỚI NƯỚC",
+    "heading": "Bản Đồ Điểm Lặn",
+    "description": "Khám phá địa hình dưới nước của các khu bảo tồn biển Nha Trang.",
+    "mapPlaceholder": "Bản đồ điểm lặn tương tác",
+    "honMun": "Hòn Mun",
+    "morayBeach": "Moray Beach",
+    "madonnaRock": "Madonna Rock",
+    "coralGarden": "Vườn San Hô"
+  },
+  "community": {
+    "sectionLabel": "DƯỚI MẶT NƯỚC",
+    "heading": "Cộng Đồng Đại Dương",
+    "description": "Những câu chuyện, hoạt động bảo tồn và kết nối từ dưới mặt nước.",
+    "conservationLabel": "BẢO TỒN BIỂN",
+    "conservationHeading": "Sáng Kiến Bảo Tồn",
+    "conservationDescription": "Những nỗ lực không ngừng của chúng tôi để bảo vệ và phục hồi hệ sinh thái biển Vịnh Nha Trang. Thông tin chi tiết sắp ra mắt.",
+    "stories": {
+      "nightDive": { "title": "Lần Lặn Đêm Đầu Tiên", "author": "Sarah K.", "excerpt": "Hiện tượng phát quang sinh học không giống bất cứ điều gì tôi từng thấy..." },
+      "reefRestoration": { "title": "Nhật Ký Phục Hồi Rạn San Hô", "author": "Dr. Nguyen", "excerpt": "Sau 18 tháng trồng san hô, kết quả thật đáng kinh ngạc..." },
+      "freediving": { "title": "Hành Trình Lặn Tự Do", "author": "Marco T.", "excerpt": "Vượt qua 40 mét chỉ với một hơi thở đã thay đổi góc nhìn của tôi..." }
+    }
+  },
+  "footer": {
+    "brand": "Rainbow Divers - Vietnam",
+    "copyright": "© 2024 Rainbow Divers - Vietnam. Kho Tàng Đại Dương.",
+    "privacyPolicy": "Chính Sách Bảo Mật",
+    "safetyProtocols": "Quy Trình An Toàn",
+    "contactDeepSupport": "Liên Hệ Hỗ Trợ Chuyên Sâu",
+    "marineConservation": "Bảo Tồn Biển"
+  },
+  "common": {
+    "loading": "Đang lặn xuống...",
+    "comingSoon": "Sắp Ra Mắt",
+    "notFound": {
+      "heading1": "Lạc trong",
+      "heading2": "Đại Dương",
+      "description": "Độ sâu bạn đang tìm kiếm không tồn tại trong kho lưu trữ của chúng tôi.",
+      "cta": "Trở Về Mặt Nước"
+    },
+    "validation": {
+      "required": "Trường này là bắt buộc",
+      "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ",
+      "messageTooShort": "Tin nhắn phải có ít nhất 10 ký tự"
+    }
+  }
+}

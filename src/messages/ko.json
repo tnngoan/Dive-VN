@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Rainbow Divers - Vietnam — 심연의 기록보관소",
+    "description": "나트랑 최고의 프리미엄 다이빙 단체. 숨겨진 산호 대성당과 유령 난파선을 탐험하세요."
+  },
+  "nav": {
+    "brand": "Rainbow Divers - Vietnam",
+    "expeditions": "탐험",
+    "diveSites": "다이브 사이트",
+    "training": "교육",
+    "community": "커뮤니티",
+    "bookADive": "다이빙 예약"
+  },
+  "hero": {
+    "headingLine1": "탐험하다",
+    "headingLine2": "심연의 기록보관소",
+    "description": "나트랑의 숨겨진 산호 대성당과 유령 난파선을 탐험하세요. 저희의 엘리트 탐험은 과학적 호기심과 최고급 수중 럭셔리를 결합합니다.",
+    "ctaPrimary": "여정 시작하기",
+    "ctaSecondary": "탐험 둘러보기",
+    "depthWidget": {
+      "title": "현재 수심",
+      "location": "Hon Mun Marine Park",
+      "depthReached": "3KM 수심 도달",
+      "minDepth": "0M",
+      "maxDepth": "45M+"
+    }
+  },
+  "training": {
+    "sectionLabel": "심해를 마스터하라",
+    "heading": "엘리트 교육 프로그램",
+    "description": "수중에서의 첫 호흡부터 전문 자격증까지, 평범한 다이빙을 초월하는 독점 교육을 제공합니다.",
+    "catalogDescription": "수중에서의 첫 호흡부터 전문 자격증까지. 마스터로 가는 길을 선택하세요.",
+    "catalogLabel": "자격증 프로그램",
+    "learnMore": "더 알아보기",
+    "bookNow": "지금 예약",
+    "courses": {
+      "openWater": {
+        "title": "오픈 워터 기초",
+        "description": "필수 다이빙 기술을 마스터하고 첫 PADI 자격증을 취득하세요. 수영장 훈련과 4회 오픈 워터 다이빙이 포함됩니다.",
+        "level": "초급",
+        "duration": "4일",
+        "price": "From $350"
+      },
+      "advanced": {
+        "title": "Advanced Open Water",
+        "description": "딥 다이빙과 내비게이션 전문 과정을 포함한 5회 어드벤처 다이빙으로 한계를 넓히세요.",
+        "level": "중급",
+        "duration": "2일",
+        "price": "From $280"
+      },
+      "nightCave": {
+        "title": "야간 & 동굴 마스터",
+        "description": "전문가 수준의 정밀함으로 완전한 어둠과 밀폐된 오버헤드 환경을 탐색하세요.",
+        "level": "상급",
+        "duration": "3일",
+        "price": "From $420"
+      },
+      "rescue": {
+        "title": "Rescue Diver",
+        "description": "다이빙 비상 상황을 관리하는 법을 배우고 모든 다이버가 버디로 원하는 다이버가 되세요.",
+        "level": "상급",
+        "duration": "4일",
+        "price": "From $380"
+      },
+      "proGear": {
+        "title": "프로 장비 워크숍",
+        "description": "전문가처럼 프로급 다이빙 장비를 이해하고 관리하세요.",
+        "level": "전 레벨",
+        "duration": "1일",
+        "price": "From $150"
+      },
+      "marinePhoto": {
+        "title": "수중 사진촬영",
+        "description": "전문적인 기법, 조명, 후처리로 수중 세계를 담아보세요.",
+        "level": "전 레벨",
+        "duration": "2일",
+        "price": "From $320"
+      }
+    },
+    "levels": {
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "상급",
+      "allLevels": "전 레벨"
+    }
+  },
+  "cta": {
+    "heading1": "뛰어들",
+    "heading2": "준비되셨나요?",
+    "description": "저희 해양 과학자 팀이 심연으로의 여정을 안내해 드립니다. 가장 깊은 열망에 맞춰 맞춤형 경험을 설계하세요.",
+    "quickInquiry": "빠른 문의",
+    "quickInquiryTime": "24시간 내 응답",
+    "deepSupport": "긴급 지원",
+    "deepSupportLine": "SOS 우선 연락",
+    "form": {
+      "nameLabel": "이름",
+      "namePlaceholder": "이름을 입력하세요",
+      "emailLabel": "이메일",
+      "emailPlaceholder": "이메일을 입력하세요",
+      "messageLabel": "메시지",
+      "messagePlaceholder": "꿈꾸는 다이빙에 대해 알려주세요...",
+      "submit": "문의 보내기",
+      "successTitle": "메시지가 전송되었습니다!",
+      "successDescription": "24시간 이내에 연락드리겠습니다."
+    }
+  },
+  "booking": {
+    "sectionLabel": "탐험 요청",
+    "headingLine1": "심연으로",
+    "headingLine2": "내려가다",
+    "subtitle": "나트랑 최고의 프리미엄 다이빙 단체. 아래에 다이브 프로필을 작성하여 맞춤형 수중 여정을 시작하세요.",
+    "section01": "다이버 정보",
+    "fullName": "성명",
+    "fullNamePlaceholder": "Commander Cousteau",
+    "emailAddress": "이메일 주소",
+    "emailPlaceholder": "explorer@abyss.com",
+    "section02": "탐험 프로필",
+    "preferredDate": "희망 날짜",
+    "certLevel": "자격증 등급",
+    "selectLevel": "등급 선택",
+    "certOptions": {
+      "openWater": "Open Water Diver",
+      "advanced": "Advanced Open Water",
+      "rescue": "Rescue Diver",
+      "divemaster": "Divemaster",
+      "instructor": "Instructor"
+    },
+    "selectDepths": "수심을 선택하세요",
+    "depths": {
+      "coralGardens": "산호 정원",
+      "deepWall": "딥 월",
+      "electricWreck": "일렉트릭 렉",
+      "nightDescent": "야간 하강"
+    },
+    "depthError": "최소 하나의 수심을 선택하세요",
+    "section03": "장비 및 지원",
+    "specialRequirements": "특별 요청사항",
+    "specialReqPlaceholder": "장비 필요사항이나 건강 관련 사항을 알려주세요...",
+    "submit": "문의 보내기",
+    "submitNote": "저희 마스터 다이버가 4시간 이내에 연락하여 일정을 확정해 드립니다.",
+    "successTitle": "문의가 접수되었습니다!",
+    "successDescription": "저희 마스터 다이버가 4시간 이내에 연락하여 일정을 확정해 드립니다.",
+    "sidebar": {
+      "visualLog": "비주얼 로그",
+      "hiddenReef": "숨겨진 암초",
+      "whatToExpect": "기대할 수 있는 것",
+      "eliteEquipment": "엘리트 장비",
+      "eliteEquipmentDesc": "항공우주 기준으로 관리되는 카본 파이버 탱크와 고성능 레귤레이터를 이용하실 수 있습니다.",
+      "yachtTransfer": "프라이빗 요트 이동",
+      "yachtTransferDesc": "완비된 편의시설을 갖춘 맞춤형 50피트 선박으로 외진 다이브 사이트에 도착합니다.",
+      "exclusiveAccess": "독점 접근",
+      "exclusiveAccessDesc": "저희는 Hon Mun Marine Protected Area의 제한 구역 허가를 보유하고 있습니다.",
+      "oceanTemp": "현재 해수 온도",
+      "tempOptimal": "야간 탐험에 최적의 조건입니다."
+    }
+  },
+  "expeditions": {
+    "sectionLabel": "엄선된 여정",
+    "heading": "엄선된 탐험",
+    "description": "나트랑의 가장 특별한 다이브 사이트로 떠나는 정성스럽게 설계된 수중 여정.",
+    "coralCathedral": "산호 대성당",
+    "coralCathedralDesc": "Hon Mun Marine Park 중심부의 우뚝 솟은 산호 지형을 탐험하세요.",
+    "wreckDiscovery": "난파선 탐사",
+    "wreckDiscoveryDesc": "나트랑 해안을 따라 침몰된 선박의 유령 같은 잔해 속으로 내려가세요.",
+    "nightAbyss": "야간 심연",
+    "nightAbyssDesc": "달빛 아래 변모한 바다를 생물 발광 생물과 함께 경험하세요."
+  },
+  "diveSites": {
+    "sectionLabel": "수중 지형",
+    "heading": "다이브 사이트 지도",
+    "description": "나트랑 해양 보호구역의 수중 지형을 탐색하세요.",
+    "mapPlaceholder": "인터랙티브 다이브 사이트 지도",
+    "honMun": "Hon Mun",
+    "morayBeach": "Moray Beach",
+    "madonnaRock": "Madonna Rock",
+    "coralGarden": "Coral Garden"
+  },
+  "community": {
+    "sectionLabel": "수면 아래",
+    "heading": "심해 커뮤니티",
+    "description": "수면 아래에서 전하는 이야기, 해양 보전, 그리고 인연.",
+    "conservationLabel": "해양 보전",
+    "conservationHeading": "보전 활동",
+    "conservationDescription": "나트랑만의 해양 생태계를 보호하고 복원하기 위한 저희의 지속적인 노력. 자세한 내용은 곧 공개됩니다.",
+    "stories": {
+      "nightDive": { "title": "첫 야간 다이빙", "author": "Sarah K.", "excerpt": "생물 발광은 제가 본 그 무엇과도 달랐습니다..." },
+      "reefRestoration": { "title": "산호초 복원 일지", "author": "Dr. Nguyen", "excerpt": "18개월간의 산호 식재 후, 그 결과는 놀라웠습니다..." },
+      "freediving": { "title": "프리다이빙 여정", "author": "Marco T.", "excerpt": "한 번의 호흡으로 40미터를 넘기자 제 관점이 완전히 바뀌었습니다..." }
+    }
+  },
+  "footer": {
+    "brand": "Rainbow Divers - Vietnam",
+    "copyright": "© 2024 Rainbow Divers - Vietnam. 심연의 기록보관소.",
+    "privacyPolicy": "개인정보 처리방침",
+    "safetyProtocols": "안전 수칙",
+    "contactDeepSupport": "긴급 지원 연락",
+    "marineConservation": "해양 보전"
+  },
+  "common": {
+    "loading": "잠수 중...",
+    "comingSoon": "곧 공개",
+    "notFound": {
+      "heading1": "심연 속에서",
+      "heading2": "길을 잃다",
+      "description": "찾으시는 수심은 저희 기록보관소에 존재하지 않습니다.",
+      "cta": "수면으로 돌아가기"
+    },
+    "validation": {
+      "required": "이 항목은 필수입니다",
+      "invalidEmail": "유효한 이메일 주소를 입력해 주세요",
+      "messageTooShort": "메시지는 최소 10자 이상이어야 합니다"
+    }
+  }
+}

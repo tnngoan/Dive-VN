@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -11,25 +12,25 @@ import FormInput from "@/components/ui/FormInput";
 import { Button } from "@/components/ui/Button";
 
 const contactSchema = z.object({
-  name: z.string().min(1, "Name is required"),
-  email: z.string().email("Valid email is required"),
-  message: z.string().min(10, "Message must be at least 10 characters"),
+  name: z.string().min(1, "required"),
+  email: z.string().email("invalidEmail"),
+  message: z.string().min(10, "messageTooShort"),
 });
 
-type ContactForm = z.infer<typeof contactSchema>;
+type ContactFormData = z.infer<typeof contactSchema>;
 
 export default function CTASection() {
+  const t = useTranslations("cta");
   const [submitted, setSubmitted] = useState(false);
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<ContactForm>({
+  } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
   });
 
-  const onSubmit = (data: ContactForm) => {
-    // TODO: Connect to /api/contact endpoint
+  const onSubmit = (data: ContactFormData) => {
     console.log("Contact form:", data);
     setSubmitted(true);
   };
@@ -44,7 +45,6 @@ export default function CTASection() {
         />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        {/* Left column */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -52,14 +52,11 @@ export default function CTASection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl font-bold">
-            <span className="text-white">Ready to</span>
+            <span className="text-white">{t("heading1")}</span>
             <br />
-            <span className="text-[var(--accent-cyan)]">Plunge?</span>
+            <span className="text-[var(--accent-cyan)]">{t("heading2")}</span>
           </h2>
-          <p className="text-[var(--text-secondary)] mt-4">
-            Our team of marine scientists is ready to guide you into the abyss. Craft your
-            experience tailored to your deepest aspirations.
-          </p>
+          <p className="text-[var(--text-secondary)] mt-4">{t("description")}</p>
 
           <div className="mt-8 space-y-4">
             <div className="flex items-center gap-4">
@@ -67,8 +64,8 @@ export default function CTASection() {
                 <Zap className="w-5 h-5 text-[var(--accent-cyan)]" />
               </div>
               <div>
-                <p className="text-white font-semibold">Quick Inquiry</p>
-                <p className="text-[var(--text-muted)] text-sm">24h response time</p>
+                <p className="text-white font-semibold">{t("quickInquiry")}</p>
+                <p className="text-[var(--text-muted)] text-sm">{t("quickInquiryTime")}</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -76,14 +73,13 @@ export default function CTASection() {
                 <LifeBuoy className="w-5 h-5 text-[var(--accent-cyan)]" />
               </div>
               <div>
-                <p className="text-white font-semibold">Deep Support</p>
-                <p className="text-[var(--text-muted)] text-sm">SOS Priority Line</p>
+                <p className="text-white font-semibold">{t("deepSupport")}</p>
+                <p className="text-[var(--text-muted)] text-sm">{t("deepSupportLine")}</p>
               </div>
             </div>
           </div>
         </motion.div>
 
-        {/* Right column — form */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -94,36 +90,36 @@ export default function CTASection() {
             {submitted ? (
               <div className="flex flex-col items-center justify-center py-12 text-center">
                 <CheckCircle className="w-12 h-12 text-green-400 mb-4" />
-                <p className="text-white font-semibold text-lg">Message sent!</p>
+                <p className="text-white font-semibold text-lg">{t("form.successTitle")}</p>
                 <p className="text-[var(--text-secondary)] mt-2">
-                  We&apos;ll be in touch within 24 hours.
+                  {t("form.successDescription")}
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
                 <FormInput
-                  label="Name"
-                  placeholder="Enter your name"
+                  label={t("form.nameLabel")}
+                  placeholder={t("form.namePlaceholder")}
                   register={register("name")}
                   error={errors.name?.message}
                 />
                 <FormInput
-                  label="Email"
+                  label={t("form.emailLabel")}
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder={t("form.emailPlaceholder")}
                   register={register("email")}
                   error={errors.email?.message}
                 />
                 <FormInput
                   as="textarea"
-                  label="Message"
+                  label={t("form.messageLabel")}
                   rows={4}
-                  placeholder="Tell us about your dream dive..."
+                  placeholder={t("form.messagePlaceholder")}
                   register={register("message")}
                   error={errors.message?.message}
                 />
                 <Button variant="primary" fullWidth type="submit" className="mt-6">
-                  Send Inquiry
+                  {t("form.submit")}
                 </Button>
               </form>
             )}

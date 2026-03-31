@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "title": "Rainbow Divers - Vietnam — The Abyssal Archive",
+    "description": "Nha Trang's premier high-end diving collective. Explore hidden coral cathedrals and spectral shipwrecks."
+  },
+  "nav": {
+    "brand": "Rainbow Divers - Vietnam",
+    "expeditions": "EXPEDITIONS",
+    "diveSites": "DIVE SITES",
+    "training": "TRAINING",
+    "community": "COMMUNITY",
+    "bookADive": "Book a Dive"
+  },
+  "hero": {
+    "headingLine1": "Descend into",
+    "headingLine2": "The Abyssal Archive",
+    "description": "Explore the hidden coral cathedrals and spectral shipwrecks of Nha Trang. Our elite expeditions blend scientific curiosity with high-end subaquatic luxury.",
+    "ctaPrimary": "Start Your Journey",
+    "ctaSecondary": "Explore Expeditions",
+    "depthWidget": {
+      "title": "Current Depth",
+      "location": "Hon Mun Marine Park",
+      "depthReached": "3KM DEPTH REACHED",
+      "minDepth": "0M",
+      "maxDepth": "45M+"
+    }
+  },
+  "training": {
+    "sectionLabel": "MASTER THE DEEP",
+    "heading": "Elite Training Programs",
+    "description": "From your first breath underwater to professional certifications, exclusive training to transcend ordinary diving.",
+    "catalogDescription": "From your first breath underwater to professional certifications. Choose your path to mastery.",
+    "catalogLabel": "CERTIFICATION PROGRAMS",
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "courses": {
+      "openWater": {
+        "title": "Open Water Foundation",
+        "description": "Master essential diving skills and earn your first PADI certification. Includes pool training and 4 open water dives.",
+        "level": "Beginner",
+        "duration": "4 days",
+        "price": "From $350"
+      },
+      "advanced": {
+        "title": "Advanced Open Water",
+        "description": "Expand your limits with 5 adventure dives including deep and navigation specialties.",
+        "level": "Intermediate",
+        "duration": "2 days",
+        "price": "From $280"
+      },
+      "nightCave": {
+        "title": "Night & Cave Mastery",
+        "description": "Navigate complete darkness and confined overhead environments with expert precision.",
+        "level": "Advanced",
+        "duration": "3 days",
+        "price": "From $420"
+      },
+      "rescue": {
+        "title": "Rescue Diver",
+        "description": "Learn to manage dive emergencies and become the diver everyone wants as a buddy.",
+        "level": "Advanced",
+        "duration": "4 days",
+        "price": "From $380"
+      },
+      "proGear": {
+        "title": "Pro Gear Workshop",
+        "description": "Understand and maintain professional-grade diving equipment like experts.",
+        "level": "All Levels",
+        "duration": "1 day",
+        "price": "From $150"
+      },
+      "marinePhoto": {
+        "title": "Marine Photography",
+        "description": "Capture the underwater world with professional techniques, lighting, and post-processing.",
+        "level": "All Levels",
+        "duration": "2 days",
+        "price": "From $320"
+      }
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "allLevels": "All Levels"
+    }
+  },
+  "cta": {
+    "heading1": "Ready to",
+    "heading2": "Plunge?",
+    "description": "Our team of marine scientists is ready to guide you into the abyss. Craft your experience tailored to your deepest aspirations.",
+    "quickInquiry": "Quick Inquiry",
+    "quickInquiryTime": "24h response time",
+    "deepSupport": "Deep Support",
+    "deepSupportLine": "SOS Priority Line",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your dream dive...",
+      "submit": "Send Inquiry",
+      "successTitle": "Message sent!",
+      "successDescription": "We'll be in touch within 24 hours."
+    }
+  },
+  "booking": {
+    "sectionLabel": "REQUEST AN EXPEDITION",
+    "headingLine1": "Descend into",
+    "headingLine2": "The Abyss",
+    "subtitle": "Nha Trang's premier high-end diving collective. Fill out your dive profile below to begin your custom-tailored underwater journey.",
+    "section01": "Diver Identity",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Commander Cousteau",
+    "emailAddress": "Email Address",
+    "emailPlaceholder": "explorer@abyss.com",
+    "section02": "Expedition Profile",
+    "preferredDate": "Preferred Date",
+    "certLevel": "Certification Level",
+    "selectLevel": "Select level",
+    "certOptions": {
+      "openWater": "Open Water Diver",
+      "advanced": "Advanced Open Water",
+      "rescue": "Rescue Diver",
+      "divemaster": "Divemaster",
+      "instructor": "Instructor"
+    },
+    "selectDepths": "Select Your Depths",
+    "depths": {
+      "coralGardens": "CORAL GARDENS",
+      "deepWall": "DEEP WALL",
+      "electricWreck": "ELECTRIC WRECK",
+      "nightDescent": "NIGHT DESCENT"
+    },
+    "depthError": "Select at least one depth",
+    "section03": "Equipment & Support",
+    "specialRequirements": "Special Requirements",
+    "specialReqPlaceholder": "Tell us about your gear needs or medical considerations...",
+    "submit": "SEND INQUIRY",
+    "submitNote": "Our Master Divers will contact you within 4 hours to finalize your itinerary.",
+    "successTitle": "Inquiry Received!",
+    "successDescription": "Our Master Divers will contact you within 4 hours to finalize your itinerary.",
+    "sidebar": {
+      "visualLog": "VISUAL LOG",
+      "hiddenReef": "The Hidden Reef",
+      "whatToExpect": "What to Expect",
+      "eliteEquipment": "Elite Equipment",
+      "eliteEquipmentDesc": "Access to carbon-fiber tanks and high-performance regulators maintained to aerospace standards.",
+      "yachtTransfer": "Private Yacht Transfer",
+      "yachtTransferDesc": "Reach secluded dive sites on our custom 50ft vessel with full onboard amenities.",
+      "exclusiveAccess": "Exclusive Access",
+      "exclusiveAccessDesc": "We hold permits for restricted areas of the Hon Mun Marine Protected Area.",
+      "oceanTemp": "CURRENT OCEAN TEMPERATURE",
+      "tempOptimal": "Conditions optimal for midnight exploration."
+    }
+  },
+  "expeditions": {
+    "sectionLabel": "CURATED JOURNEYS",
+    "heading": "Curated Expeditions",
+    "description": "Hand-crafted underwater journeys to Nha Trang's most extraordinary dive sites.",
+    "coralCathedral": "Coral Cathedral",
+    "coralCathedralDesc": "Explore towering coral formations in the heart of Hon Mun Marine Park.",
+    "wreckDiscovery": "Wreck Discovery",
+    "wreckDiscoveryDesc": "Descend into the ghostly remains of sunken vessels along the Nha Trang coast.",
+    "nightAbyss": "Night Abyss",
+    "nightAbyssDesc": "Experience the ocean transformed under moonlight with bioluminescent encounters."
+  },
+  "diveSites": {
+    "sectionLabel": "UNDERWATER TOPOGRAPHY",
+    "heading": "Dive Site Atlas",
+    "description": "Navigate the underwater topography of Nha Trang's marine reserves.",
+    "mapPlaceholder": "Interactive dive site map",
+    "honMun": "Hon Mun",
+    "morayBeach": "Moray Beach",
+    "madonnaRock": "Madonna Rock",
+    "coralGarden": "Coral Garden"
+  },
+  "community": {
+    "sectionLabel": "BENEATH THE SURFACE",
+    "heading": "The Deep Community",
+    "description": "Stories, conservation, and connections from beneath the surface.",
+    "conservationLabel": "MARINE CONSERVATION",
+    "conservationHeading": "Conservation Initiatives",
+    "conservationDescription": "Our ongoing efforts to protect and restore the marine ecosystems of Nha Trang Bay. Full details coming soon.",
+    "stories": {
+      "nightDive": { "title": "First Night Dive", "author": "Sarah K.", "excerpt": "The bioluminescence was unlike anything I'd ever seen..." },
+      "reefRestoration": { "title": "Reef Restoration Log", "author": "Dr. Nguyen", "excerpt": "After 18 months of coral planting, the results are remarkable..." },
+      "freediving": { "title": "Freediving Journey", "author": "Marco T.", "excerpt": "Pushing past 40 meters on a single breath changed my perspective..." }
+    }
+  },
+  "footer": {
+    "brand": "Rainbow Divers - Vietnam",
+    "copyright": "© 2024 Rainbow Divers - Vietnam. The Abyssal Archive.",
+    "privacyPolicy": "Privacy Policy",
+    "safetyProtocols": "Safety Protocols",
+    "contactDeepSupport": "Contact Deep Support",
+    "marineConservation": "Marine Conservation"
+  },
+  "common": {
+    "loading": "Descending...",
+    "comingSoon": "Coming Soon",
+    "notFound": {
+      "heading1": "Lost in the",
+      "heading2": "Abyss",
+      "description": "The depth you're looking for doesn't exist in our archive.",
+      "cta": "Return to Surface"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "messageTooShort": "Message must be at least 10 characters"
+    }
+  }
+}
