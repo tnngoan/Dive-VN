@@ -39,7 +39,7 @@ export default function HeroSection() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/media/hero-bg.mov" type="video/mp4" />
+          <source src="/media/hero-bg.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a2540]/40 via-[#0d1b2a]/50 to-[var(--bg-primary)]" />
