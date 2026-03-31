@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GlassCard from "@/components/ui/GlassCard";
 import SectionLabel from "@/components/ui/SectionLabel";
 
@@ -5,14 +6,17 @@ const expeditions = [
   {
     title: "Coral Cathedral",
     description: "Explore towering coral formations in the heart of Hon Mun Marine Park.",
+    image: "/media/neom-HYHYGLs-Rp8-unsplash.jpg",
   },
   {
     title: "Wreck Discovery",
     description: "Descend into the ghostly remains of sunken vessels along the Nha Trang coast.",
+    image: "/media/pascal-van-de-vendel-NCOxn5I10vA-unsplash.jpg",
   },
   {
     title: "Night Abyss",
     description: "Experience the ocean transformed under moonlight with bioluminescent encounters.",
+    image: "/media/neom-g6Me5mUQQIQ-unsplash.jpg",
   },
 ];
 
@@ -29,8 +33,16 @@ export default function ExpeditionsPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {expeditions.map((exp) => (
-          <GlassCard key={exp.title} hover className="relative overflow-hidden">
-            <div className="h-[200px] bg-gradient-to-br from-[#1a3a4a] to-[#0d1b2a]" />
+          <GlassCard key={exp.title} hover className="relative overflow-hidden group">
+            <div className="h-[240px] relative overflow-hidden">
+              <Image
+                src={exp.image}
+                alt={exp.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+            </div>
             <div className="p-6">
               <span className="text-xs px-3 py-1 rounded-full bg-[var(--accent-cyan)]/10 text-[var(--accent-cyan)]">
                 Coming Soon

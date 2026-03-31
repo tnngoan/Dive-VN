@@ -199,8 +199,11 @@ export default function BookPage() {
         <div className="lg:col-span-2 space-y-6">
           {/* Visual Log Card */}
           <div className="relative rounded-2xl overflow-hidden h-[280px]">
-            {/* TODO: underwater diver photo */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#1a3a4a] to-[#0d1b2a]" />
+            <img
+              src="/media/jesse-van-vliet-mXU0lVbz6gA-unsplash.jpg"
+              alt="Diver descending into the deep blue"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
               <p className="text-xs uppercase tracking-[0.25em] text-[var(--text-muted)]">
                 VISUAL LOG

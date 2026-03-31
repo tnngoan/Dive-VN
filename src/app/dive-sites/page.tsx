@@ -1,11 +1,32 @@
+import Image from "next/image";
 import GlassCard from "@/components/ui/GlassCard";
 import SectionLabel from "@/components/ui/SectionLabel";
 
 const sites = [
-  { title: "Hon Mun", depth: "5–25m", type: "Coral Reef" },
-  { title: "Moray Beach", depth: "12–30m", type: "Sandy Slope" },
-  { title: "Madonna Rock", depth: "8–22m", type: "Rock Formation" },
-  { title: "Coral Garden", depth: "3–18m", type: "Shallow Reef" },
+  {
+    title: "Hon Mun",
+    depth: "5-25m",
+    type: "Coral Reef",
+    image: "/media/neom-abjEGTj3HZY-unsplash.jpg",
+  },
+  {
+    title: "Moray Beach",
+    depth: "12-30m",
+    type: "Sandy Slope",
+    image: "/media/neom-bpdoFNQP2iw-unsplash.jpg",
+  },
+  {
+    title: "Madonna Rock",
+    depth: "8-22m",
+    type: "Rock Formation",
+    image: "/media/neom-FuusC7lfg6Q-unsplash.jpg",
+  },
+  {
+    title: "Coral Garden",
+    depth: "3-18m",
+    type: "Shallow Reef",
+    image: "/media/neom-bOMVTvE2QFU-unsplash.jpg",
+  },
 ];
 
 export default function DiveSitesPage() {
@@ -31,14 +52,22 @@ export default function DiveSitesPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {sites.map((site) => (
-          <GlassCard key={site.title} hover className="p-6">
-            <span className="text-xs px-3 py-1 rounded-full bg-[var(--accent-cyan)]/10 text-[var(--accent-cyan)]">
-              Coming Soon
-            </span>
-            <h3 className="text-white text-xl font-semibold mt-3">{site.title}</h3>
-            <p className="text-[var(--text-secondary)] text-sm mt-2">
-              Depth: {site.depth} &middot; {site.type}
-            </p>
+          <GlassCard key={site.title} hover className="overflow-hidden group">
+            <div className="h-[180px] relative overflow-hidden">
+              <Image
+                src={site.image}
+                alt={site.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-white text-xl font-semibold">{site.title}</h3>
+              <p className="text-[var(--text-secondary)] text-sm mt-2">
+                Depth: {site.depth} &middot; {site.type}
+              </p>
+            </div>
           </GlassCard>
         ))}
       </div>

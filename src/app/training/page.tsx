@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Clock } from "lucide-react";
 import GlassCard from "@/components/ui/GlassCard";
@@ -68,13 +69,27 @@ const levelStyles: Record<string, string> = {
 export default function TrainingPage() {
   return (
     <div className="max-w-[1280px] mx-auto px-8 py-12">
-      <div className="mb-12">
-        <SectionLabel text="CERTIFICATION PROGRAMS" />
-        <h1 className="text-white text-4xl font-bold">Elite Training Programs</h1>
-        <p className="text-[var(--text-secondary)] mt-4 max-w-[600px]">
-          From your first breath underwater to professional certifications. Choose your path to
-          mastery.
-        </p>
+      {/* Header with background image */}
+      <div className="relative rounded-2xl overflow-hidden mb-12">
+        <div className="absolute inset-0">
+          <Image
+            src="/media/jesse-van-vliet-GgHmp1pl20Q-unsplash.jpg"
+            alt="Sea turtle swimming in blue water"
+            fill
+            className="object-cover"
+            sizes="(max-width: 1280px) 100vw, 1280px"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[var(--bg-primary)]/90 to-[var(--bg-primary)]/40" />
+        </div>
+        <div className="relative p-8 sm:p-12">
+          <SectionLabel text="CERTIFICATION PROGRAMS" />
+          <h1 className="text-white text-4xl font-bold">Elite Training Programs</h1>
+          <p className="text-[var(--text-secondary)] mt-4 max-w-[600px]">
+            From your first breath underwater to professional certifications. Choose your path to
+            mastery.
+          </p>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

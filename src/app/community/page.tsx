@@ -1,10 +1,26 @@
+import Image from "next/image";
 import GlassCard from "@/components/ui/GlassCard";
 import SectionLabel from "@/components/ui/SectionLabel";
 
 const stories = [
-  { title: "First Night Dive", author: "Sarah K.", excerpt: "The bioluminescence was unlike anything I&apos;d ever seen..." },
-  { title: "Reef Restoration Log", author: "Dr. Nguyen", excerpt: "After 18 months of coral planting, the results are remarkable..." },
-  { title: "Freediving Journey", author: "Marco T.", excerpt: "Pushing past 40 meters on a single breath changed my perspective..." },
+  {
+    title: "First Night Dive",
+    author: "Sarah K.",
+    excerpt: "The bioluminescence was unlike anything I'd ever seen...",
+    image: "/media/jesse-van-vliet-QJvbsdkTUS0-unsplash.jpg",
+  },
+  {
+    title: "Reef Restoration Log",
+    author: "Dr. Nguyen",
+    excerpt: "After 18 months of coral planting, the results are remarkable...",
+    image: "/media/jesse-van-vliet-Xlg6ppBg7Jk-unsplash.jpg",
+  },
+  {
+    title: "Freediving Journey",
+    author: "Marco T.",
+    excerpt: "Pushing past 40 meters on a single breath changed my perspective...",
+    image: "/media/johnny-africa-FGHjgyAAYv4-unsplash.jpg",
+  },
 ];
 
 export default function CommunityPage() {
@@ -20,13 +36,21 @@ export default function CommunityPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
         {stories.map((story) => (
-          <GlassCard key={story.title} hover className="p-6">
-            <span className="text-xs px-3 py-1 rounded-full bg-[var(--accent-cyan)]/10 text-[var(--accent-cyan)]">
-              Coming Soon
-            </span>
-            <h3 className="text-white text-xl font-semibold mt-3">{story.title}</h3>
-            <p className="text-[var(--text-muted)] text-sm mt-1">by {story.author}</p>
-            <p className="text-[var(--text-secondary)] text-sm mt-3">{story.excerpt}</p>
+          <GlassCard key={story.title} hover className="overflow-hidden group">
+            <div className="h-[200px] relative overflow-hidden">
+              <Image
+                src={story.image}
+                alt={story.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-white text-xl font-semibold">{story.title}</h3>
+              <p className="text-[var(--text-muted)] text-sm mt-1">by {story.author}</p>
+              <p className="text-[var(--text-secondary)] text-sm mt-3">{story.excerpt}</p>
+            </div>
           </GlassCard>
         ))}
       </div>

@@ -11,21 +11,25 @@ const courses = [
     title: "Open Water Foundation",
     description:
       "Master the essential diving skills and safety proficiency for open water exploration.",
+    image: "/media/jesse-van-vliet-_8b7AW-p3Js-unsplash.jpg",
   },
   {
     title: "Night & Cave Mastery",
     description:
       "Navigate complete darkness and confined overhead environments with expert precision.",
+    image: "/media/neom-dulVtESluoM-unsplash.jpg",
   },
   {
     title: "Pro Gear Workshop",
     description:
       "Understand and maintain professional-grade diving equipment like experts.",
+    image: "/media/neom-eNIGxtOdB10-unsplash.jpg",
   },
   {
     title: "Marine Photography",
     description:
       "Capture the underwater world with professional techniques and equipment.",
+    image: "/media/neom-yRrCN9-7mg8-unsplash.jpg",
   },
 ];
 
@@ -54,7 +58,12 @@ export default function TrainingGrid() {
           >
             <Link href="/training">
               <GlassCard hover className="relative min-h-[250px] overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-secondary)] to-transparent" />
+                <img
+                  src={course.image}
+                  alt={course.title}
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-secondary)] via-[var(--bg-secondary)]/60 to-transparent" />
                 <div className="relative p-6 flex flex-col justify-end min-h-[250px]">
                   <h3 className="text-white text-xl font-semibold">{course.title}</h3>
                   <p className="text-[var(--text-secondary)] text-sm mt-2 leading-relaxed">

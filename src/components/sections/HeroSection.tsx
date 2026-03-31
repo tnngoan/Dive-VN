@@ -30,11 +30,19 @@ function DepthGauge() {
 export default function HeroSection() {
   return (
     <section className="relative w-full min-h-screen overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a2540] via-[#0d1b2a] to-[var(--bg-primary)]">
-        {/* TODO: Replace with actual underwater hero image */}
+      {/* Video Background */}
+      <div className="absolute inset-0">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/media/hero-bg.mov" type="video/mp4" />
+        </video>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--bg-primary)]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0a2540]/40 via-[#0d1b2a]/50 to-[var(--bg-primary)]" />
 
       {/* Content */}
       <div className="relative z-10 max-w-[1280px] mx-auto px-8 min-h-screen flex items-end pb-24 lg:pb-32">

@@ -35,7 +35,14 @@ export default function CTASection() {
   };
 
   return (
-    <section className="max-w-[1280px] mx-auto px-8 py-24">
+    <section className="relative max-w-[1280px] mx-auto px-8 py-24">
+      <div className="absolute -inset-8 -z-10 rounded-3xl overflow-hidden opacity-20">
+        <img
+          src="/media/neom-J2h9XzF33GI-unsplash.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left column */}
         <motion.div
